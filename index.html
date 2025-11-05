@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Autogrid</title>
+    <link rel="stylesheet" href="css/autogrid-styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="logo" href="index.html">
+                <img src="/assets/icons/logo_autogrid.png" alt="Autogrid" />
+            </a>
+ 
+             <nav class="main-nav" id="mainNav">
+                 <ul>
+                     <li><a href="index.html">Inicio</a></li>
+                     <li><a href="autogrid.html">¿Qué es AutoGrid?</a></li>
+                     <li><a href="index.html">¿Cómo Funciona?</a></li>
+                     <li><a href="equipo.html">Nuestro Equipo</a></li>
+                     <li><a href="opciones.html">Regístrate/Inicia Sesión</a></li>
+                 </ul>
+                 <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+             </nav>
+         </div>
+     </header>
+
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1>Automatiza tu taller</h1>
+            <p class="subtitle">¡Optimiza tu energía!</p>
+        </div>
+    </section>
+
+        <main class="container">
+        <!-- Reseñas / Testimonios -->
+        <section id="testimonios" class="section testimonials">
+            <h2 class="section-title">Algunas reseñas de nuestros usuarios frecuentes:</h2>
+            <div class="testimonials-grid">
+                <article class="testimonial-card">
+                    <div class="user-photo" style="background-image:url('/assets/img/carlos_rivas.png')" role="img" aria-label="Foto de usuario 1"></div>
+                    <div class="testimonial-body">
+                        <h3 class="user-name">Carlos Rivas</h3>
+                        <p class="user-role">Propietario de taller Rivas Motors</p>
+                        <p class="review-text">"Desde que implementamos AutoGrid hemos reducido nuestro consumo eléctrico en casi un 25%.
+                        Lo mejor es poder ver en tiempo real qué equipos están usando más energía. Ahora tomamos decisiones más inteligentes y rápidas."</p>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="user-photo" style="background-image:url('/assets/img/mariana.png')" role="img" aria-label="Foto de usuario 2"></div>
+                    <div class="testimonial-body">
+                        <h3 class="user-name">Mariana Torres</h3>
+                        <p class="user-role">Administradora de ServiAuto Perú</p>
+                        <p class="review-text">"AutoGrid nos ayudó a organizar las tareas del taller y a detectar fallos en equipos que estaban consumiendo más de lo normal.
+                        Es una herramienta muy completa y fácil de usar, incluso para quienes no tenemos experiencia técnica."</p>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="user-photo" style="background-image:url('/assets/img/luis_campos.png')" role="img" aria-label="Foto de usuario 3"></div>
+                    <div class="testimonial-body">
+                        <h3 class="user-name">Luis Campos</h3>
+                        <p class="user-role">Jefe de mantenimiento en FastCar Garage</p>
+                        <p class="review-text">"Antes no sabíamos cuánta energía se desperdiciaba en los equipos inactivos.
+                        Con AutoGrid podemos programar apagados automáticos y recibir alertas, lo que ha hecho el trabajo mucho más eficiente."</p>
+                    </div>
+                </article>
+
+                <article class="testimonial-card">
+                    <div class="user-photo" style="background-image:url('/assets/img/andrea_vega.png')" role="img" aria-label="Foto de usuario 4"></div>
+                    <div class="testimonial-body">
+                        <h3 class="user-name">Andrea Vega</h3>
+                        <p class="user-role">Dueña de EcoTaller Lima</p>
+                        <p class="review-text">"Me encanta que AutoGrid no solo ayude a ahorrar dinero, sino que también promueva un consumo responsable de energía.
+                        Es una gran herramienta para cualquier taller que quiera modernizarse y cuidar el medio ambiente."</p>
+                    </div>
+               </article>
+            </div>
+        </section>
+        <!-- fin testimonios -->
+
+        <!-- Preguntas Frecuentes -->
+       <section id="faq" class="section faq">
+           <h2 class="section-title">Preguntas frecuentes</h2>
+           <div class="faq-list">
+               <div class="faq-item">
+                   <button class="faq-button" aria-expanded="false">
+                       <span class="faq-q">¿Qué es AutoGrid?</span>
+                       <span class="chev" aria-hidden="true">▾</span>
+                   </button>
+                   <div class="faq-panel" hidden>
+                       <p>AutoGrid es una plataforma inteligente que combina IoT, analítica de datos y automatización para ayudar a los talleres automotrices a gestionar sus procesos y consumo energético en tiempo real. Su objetivo es mejorar la eficiencia, reducir costos y promover la sostenibilidad.</p>
+                   </div>
+               </div>
+
+               <div class="faq-item">
+                   <button class="faq-button" aria-expanded="false">
+                       <span class="faq-q">¿A quién está dirigido AutoGrid?</span>
+                       <span class="chev" aria-hidden="true">▾</span>
+                   </button>
+                   <div class="faq-panel" hidden>
+                       <p>Está diseñado para talleres automotrices pequeños, medianos y grandes, así como para sus propietarios, administradores y personal técnico que buscan digitalizar sus operaciones, optimizar recursos y reducir el gasto energético.</p>
+                   </div>
+               </div>
+
+               <div class="faq-item">
+                   <button class="faq-button" aria-expanded="false">
+                       <span class="faq-q">¿Cómo ayuda AutoGrid a reducir el consumo energético?</span>
+                       <span class="chev" aria-hidden="true">▾</span>
+                   </button>
+                   <div class="faq-panel" hidden>
+                       <p>AutoGrid instala sensores IoT que monitorean el consumo eléctrico de los equipos y detectan ineficiencias.
+                        Con los datos recolectados, el sistema genera alertas, reportes y recomendaciones automáticas para ahorrar entre 15% y 30% de energía.</p>
+                   </div>
+               </div>
+
+               <div class="faq-item">
+                   <button class="faq-button" aria-expanded="false">
+                       <span class="faq-q">¿Qué procesos del taller se pueden gestionar?</span>
+                       <span class="chev" aria-hidden="true">▾</span>
+                   </button>
+                   <div class="faq-panel" hidden>
+                       <p>Con AutoGrid puedes asignar tareas, monitorear el progreso de reparaciones, controlar inventarios, recibir alertas de mantenimiento y ver reportes de desempeño desde un solo panel centralizado.</p>
+                   </div>
+               </div>
+
+               <div class="faq-item">
+                   <button class="faq-button" aria-expanded="false">
+                       <span class="faq-q">¿AutoGrid requiere conocimientos técnicos avanzados?</span>
+                       <span class="chev" aria-hidden="true">▾</span>
+                   </button>
+                   <div class="faq-panel" hidden>
+                       <p>No. La plataforma está pensada para ser intuitiva y fácil de usar.
+                        El 80% de los usuarios puede aprender a manejar las funciones básicas sin capacitación avanzada gracias a su interfaz visual y simple.</p>
+                   </div>
+               </div>
+               
+               <div class="faq-item">
+                   <button class="faq-button" aria-expanded="false">
+                       <span class="faq-q">¿Qué se necesita para implementar AutoGrid en un taller?</span>
+                       <span class="chev" aria-hidden="true">▾</span>
+                   </button>
+                   <div class="faq-panel" hidden>
+                       <p>Solo se requiere una conexión a internet, los sensores IoT (proporcionados o compatibles con AutoGrid) y el acceso a la plataforma web o aplicación móvil. La instalación es rápida y escalable según las necesidades del taller.</p>
+                   </div>
+               </div>
+
+               <div class="faq-item">
+                   <button class="faq-button" aria-expanded="false">
+                       <span class="faq-q">¿Cuáles son los beneficios principales para el taller?</span>
+                       <span class="chev" aria-hidden="true">▾</span>
+                   </button>
+                   <div class="faq-panel" hidden>
+                       <p>Reducción de costos operativos.
+                        Mayor eficiencia y control de procesos.
+                        Monitoreo energético en tiempo real.
+                        Mayor productividad del personal técnico.
+                        Contribución a la sostenibilidad ambiental.</p>
+                   </div>
+               </div>
+
+               <div class="faq-item">
+                   <button class="faq-button" aria-expanded="false">
+                       <span class="faq-q">¿Puedo usar AutoGrid si mi taller es pequeño?</span>
+                       <span class="chev" aria-hidden="true">▾</span>
+                   </button>
+                   <div class="faq-panel" hidden>
+                       <p>Sí. AutoGrid fue diseñado especialmente para PYMEs automotrices, con planes modulares y accesibles que se adaptan al tamaño y presupuesto de cada negocio.</p>
+                   </div>
+               </div>
+
+               <div class="faq-item">
+                   <button class="faq-button" aria-expanded="false">
+                       <span class="faq-q">¿AutoGrid protege los datos del taller?</span>
+                       <span class="chev" aria-hidden="true">▾</span>
+                   </button>
+                   <div class="faq-panel" hidden>
+                       <p>Sí. Todos los datos son almacenados de forma segura en la nube y solo pueden ser vistos por los usuarios autorizados del taller. Además, se siguen buenas prácticas de seguridad informática y privacidad.</p>
+                   </div>
+               </div>
+
+           </div>
+       </section>
+       <!-- fin Preguntas Frecuentes -->
+     </main>
+
+
+    <footer class="site-footer">
+       <div class="container footer-grid">
+           <div class="footer-col footer-brand">
+               <a class="footer-logo" href="#">
+                   <img src="/assets/icons/logo_autogrid.png" alt="AutoGrid" />
+               </a>
+               <p class="footer-slogan">Automatiza tu taller<br><strong>¡Optimiza tu energía!</strong></p>
+           </div>
+
+           <div class="footer-col">
+               <h4>Empresa</h4>
+               <ul>
+                   <li><a href="#nosotros">¿Qué es AutoGrid?</a></li>
+                   <li><a href="#funcionalidades">¿Cómo Funciona?</a></li>
+                   <li><a href="#equipo">Nuestro Equipo</a></li>
+               </ul>
+           </div>
+
+           <div class="footer-col">
+               <h4>Contáctanos</h4>
+               <ul class="contact-list">
+                   <li>
+                       <img src="/assets/icons/phone_icon.png" alt="Teléfono" class="contact-icon">
+                       <span>Teléfono: 01 2111111</span>
+                   </li>
+                   <li>
+                       <img src="/assets/icons/whatsapp_icon.png" alt="Whatsapp" class="contact-icon">
+                       <span>Whatsapp: +51 999 888 777</span>
+                   </li>
+                   <li>
+                       <img src="/assets/icons/whatsapp_icon.png" alt="Whatsapp" class="contact-icon">
+                       <span>Whatsapp: +51 999 777 665</span>
+                   </li>
+               </ul>
+               <div class="socials">
+                   <a href="#"><img src="/assets/icons/Instagram_icon.png" alt="Instagram" /></a>
+                   <a href="#"><img src="/assets/icons/Facebook_Logo_.png" alt="Facebook" /></a>
+                   <a href="#"><img src="/assets/icons/X_logo_2023.png" alt="X" /></a>
+               </div>
+            </div>
+
+           <div class="footer-col">
+               <h4>Políticas</h4>
+               <ul>
+                   <li><a href="#condiciones">Condiciones</a></li>
+                   <li><a href="#privacidad">Privacidad</a></li>
+                   <li><a href="#cookies">Configuración de Cookies</a></li>
+               </ul>
+           </div>
+       </div>
+       <div class="footer-bottom">
+           <div class="container">© 2025 AutoGrid | Todos los derechos reservados.</div>
+       </div>
+   </footer>
+
+    <script>
+        // Toggle menú móvil
+        const toggle = document.getElementById('menuToggle');
+        const nav = document.getElementById('mainNav');
+        toggle.addEventListener('click', () => {
+            nav.classList.toggle('open');
+        });
+
+        // FAQ accordion
+       document.querySelectorAll('.faq-button').forEach(button => {
+           button.addEventListener('click', () => {
+               const expanded = button.getAttribute('aria-expanded') === 'true';
+               const panel = button.nextElementSibling;
+               button.setAttribute('aria-expanded', String(!expanded));
+               if (!expanded) {
+                   panel.hidden = false;
+                   // allow CSS transition
+                   requestAnimationFrame(() => panel.style.maxHeight = panel.scrollHeight + 'px');
+                   button.classList.add('open');
+               } else {
+                   panel.style.maxHeight = null;
+                   button.classList.remove('open');
+                   // hide after transition
+                   panel.addEventListener('transitionend', function _h(){ panel.hidden = true; panel.removeEventListener('transitionend', _h); });
+               }
+           });
+       });
+    </script>
+</body>
+</html>

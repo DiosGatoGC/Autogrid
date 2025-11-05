@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Nuestro Equipo - AutoGrid</title>
+  <link rel="stylesheet" href="css/autogrid-styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">
+        <img src="/assets/icons/logo_autogrid.png" alt="Autogrid" />
+      </a>
+
+      <nav class="main-nav" id="mainNav">
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="autogrid.html">¿Qué es AutoGrid?</a></li>
+          <li><a href="index.html">¿Cómo Funciona?</a></li>
+          <li><a href="equipo.html">Nuestro Equipo</a></li>
+          <li><a href="opciones.html">Regístrate/Inicia Sesión</a></li>
+        </ul>
+        <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container" style="padding-top:120px;">
+    <section class="section team">
+      <h2 class="section-title">Nuestro equipo</h2>
+
+      <div class="team-grid">
+
+        <article class="team-card">
+          <div class="team-photo" style="background-image:url('/assets/img/diego_andres.png')" role="img" aria-label="Foto de participante 1"></div>
+          <h3 class="team-name">Diego Andres Luis Miranda</h3>
+          <p class="team-role">Ing. Software - U20241D185</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo" style="background-image:url('/assets/img/gabriel_augusto.png')" role="img" aria-label="Foto de participante 2"></div>
+          <h3 class="team-name">Gabriel Augusto Peñaranda Caldas</h3>
+          <p class="team-role">Ing. Software - U202210836</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo" style="background-image:url('/assets/img/diego_enrique.png')" role="img" aria-label="Foto de participante 3"></div>
+          <h3 class="team-name">Diego Enrique Rojas Díaz</h3>
+          <p class="team-role">Ing. de Software - U20231E840</p>
+        </article>
+
+        <article class="team-card">
+          <div class="team-photo" style="background-image:url('/assets/img/rafael_francisco.png')" role="img" aria-label="Foto de participante 4"></div>
+          <h3 class="team-name">Rafael Francisco Obregón Roca</h3>
+          <p class="team-role">Ciencias de la Computación - U20221C340</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer (copiado de index.html) -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col footer-brand">
+        <a class="footer-logo" href="index.html">
+          <img src="/assets/icons/logo_autogrid.png" alt="AutoGrid" />
+        </a>
+        <p class="footer-slogan">Automatiza tu taller<br><strong>¡Optimiza tu energía!</strong></p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="autogrid.html">¿Qué es AutoGrid?</a></li>
+          <li><a href="index.html">¿Cómo Funciona?</a></li>
+          <li><a href="equipo.html">Nuestro Equipo</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contáctanos</h4>
+        <ul class="contact-list">
+          <li><img src="/assets/icons/phone_icon.png" alt="Teléfono" class="contact-icon"><span>Teléfono: 01 2111111</span></li>
+          <li><img src="/assets/icons/whatsapp_icon.png" alt="Whatsapp" class="contact-icon"><span>Whatsapp: +51 999 888 777</span></li>
+          <li><img src="/assets/icons/whatsapp_icon.png" alt="Whatsapp" class="contact-icon"><span>Whatsapp: +51 999 777 665</span></li>
+        </ul>
+        <div class="socials">
+          <a href="#"><img src="/assets/icons/Instagram_icon.png" alt="Instagram" /></a>
+          <a href="#"><img src="/assets/icons/Facebook_Logo_.png" alt="Facebook" /></a>
+          <a href="#"><img src="/assets/icons/X_logo_2023.png" alt="X" /></a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Políticas</h4>
+        <ul>
+          <li><a href="#condiciones">Condiciones</a></li>
+          <li><a href="#privacidad">Privacidad</a></li>
+          <li><a href="#cookies">Configuración de Cookies</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">© 2025 AutoGrid | Todos los derechos reservados.</div>
+    </div>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('menuToggle');
+    const nav = document.getElementById('mainNav');
+    if (toggle && nav) toggle.addEventListener('click', () => nav.classList.toggle('open'));
+  </script>
+</body>
+</html>
